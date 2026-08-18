@@ -68,3 +68,34 @@ nav ul a {
   width: 512px;
   height: auto;
 }
+
+.information-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 128px;
+}
+
+.information-container h2 {
+  font-size: 36px;
+  text-align: center;
+}
+
+.info-card-container {
+  display: flex;
+  gap: 48px;
+  justify-content: center;
+}
+
+.info-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.info-card-container .info-card .img-container {
+  width: 168px;
+  height: 168px;
+  border: 3px solid #3882f6;
+  border-radius: 5%;
+}
