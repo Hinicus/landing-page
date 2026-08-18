@@ -4,3 +4,67 @@ body {
   box-sizing: border-box;
   font-family: Roboto, "Arial", sans-serif;
 }
+
+nav {
+  background-color: #1f2937;
+  width: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 128px;
+  color: #f9faf8;
+}
+
+nav ul {
+  display: flex;
+  padding: 0;
+  list-style-type: none;
+  gap: 16px;
+}
+
+nav ul a {
+  text-decoration: none;
+  color: white;
+}
+
+.main-hero {
+  display: flex;
+  justify-content: space-between;
+  background-color: #1f2937;
+  padding: 32px 128px;
+  gap: 32px;
+}
+
+.sign-up-info {
+  max-width: 768px;
+}
+
+.main-hero h2 {
+  font-size: 48px;
+  color: #f9faf8;
+  font-weight: 900;
+}
+
+.main-hero p {
+  font-size: 18px;
+  color: #e5e7eb;
+  margin-bottom: 24px;
+}
+
+.main-hero button {
+  border: none;
+  box-shadow: none;
+  outline: none;
+  background-color: #3882f6;
+  padding: 12px 16px;
+  border-radius: 10%;
+  font-size: 20px;
+  font-weight: 900;
+  color: #f9faf8;
+}
+
+.main-hero img {
+  align-self: center;
+  width: 512px;
+  height: auto;
+}
