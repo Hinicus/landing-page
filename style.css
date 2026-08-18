@@ -99,3 +99,21 @@ nav ul a {
   border: 3px solid #3882f6;
   border-radius: 5%;
 }
+
+.quote-container {
+  background-color: #e5e7eb;
+  padding: 72px;
+}
+
+.quote-container h3 {
+  font-size: 36px;
+  color: #1f2937;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.quote-container p {
+  font-weight: bold;
+  text-align: end;
+  font-size: 24px;
+}
