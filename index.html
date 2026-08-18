@@ -93,6 +93,11 @@
         <button>Sign up</button>
       </div>
     </div>
-    <footer>Copyright</footer>
+    <footer>Copyright © Matthew Antonio <span id="year">{year}</span></footer>
+
+    <script>
+      const year = document.getElementById("year");
+      year.textContent = new Date().getFullYear();
+    </script>
   </body>
 </html>

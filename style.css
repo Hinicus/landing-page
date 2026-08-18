@@ -148,3 +148,10 @@ nav ul a {
 .call-to-action {
   color: white;
 }
+
+footer {
+  background-color: #1f2937;
+  text-align: center;
+  padding: 32px;
+  color: white;
+}
