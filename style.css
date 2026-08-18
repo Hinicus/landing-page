@@ -97,7 +97,7 @@ nav ul a {
   width: 168px;
   height: 168px;
   border: 3px solid #3882f6;
-  border-radius: 5%;
+  border-radius: 5px;
 }
 
 .quote-container {
@@ -116,4 +116,35 @@ nav ul a {
   font-weight: bold;
   text-align: end;
   font-size: 24px;
+}
+
+.call-to-action-container {
+  padding: 64px;
+}
+
+.background-container {
+  display: flex;
+  gap: 24px;
+  justify-content: space-between;
+  background-color: #3882f6;
+  border-radius: 12px;
+  padding: 32px 72px;
+}
+
+.background-container button {
+  border: none;
+  outline: none;
+  box-shadow: none;
+  border: 3px solid white;
+  background-color: #3882f6;
+  border-radius: 5px;
+  align-self: center;
+  padding: 16px;
+  font-size: 16px;
+  color: white;
+  font-weight: bold;
+}
+
+.call-to-action {
+  color: white;
 }
