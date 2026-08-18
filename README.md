@@ -2,5 +2,5 @@
 
 This is an excercise landing page project utilizing HTML and CSS.
 
-#Credits
+# Credits
 Main info image - Georg Wietschorke
